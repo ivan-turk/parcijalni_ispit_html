@@ -1,10 +1,92 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <meta name="author" content="Ivan Turk" />
+    <meta name="description" content="Prvi parcijalni ispit iz HTML-a" />
+    <title>Turistička agencija "Avanturist"</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <h1>Turistička agencija "Avanturist"</h1>
+      <nav>
+        <ul>
+          <li><a href="#onama">O nama</a></li>
+          <li><a href="#nasedjelatnosti">Naše djelatnosti</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+        <hr />
+      </nav>
+    </header>
+
+    <main>
+      <h1>Turistička agencija "Avanturist"</h1>
+      <section id="onama">
+        <h2>O nama</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus et laboriosam repudiandae, id repellat maiores iusto sint quam eos expedita excepturi temporibus
+          quidem minus natus qui aspernatur quod dolorum enim ipsam officia nostrum magni hic omnis molestias. Dolorem illum, adipisci hic doloribus voluptate similique ut voluptas
+          veniam a quae velit, incidunt libero! Impedit porro recusandae pariatur ipsam dolorem voluptatibus necessitatibus beatae est. Ullam quis veniam ab hic doloremque quo
+          culpa inventore magnam soluta ratione amet corrupti at eos libero, atque alias tempore esse suscipit fuga. Quos repellat numquam quis nostrum itaque facilis dicta. Nulla
+          iure illo dignissimos quis voluptas fugiat.
+        </p>
+        <img src="./multimedia/images/ljudi/grupe-ljudi/team.jpg" alt="Team picture" />
+        <br />
+        <br />
+        <hr />
+      </section>
+      <br />
+      <section id="nasedjelatnosti">
+        <h2>Naše djelatnosti</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore dolor ullam delectus debitis velit reprehenderit autem eos obcaecati voluptas provident? Ut praesentium
+          sapiente, officiis vitae impedit consectetur fugit incidunt dignissimos magni. Beatae nulla quo mollitia exercitationem, natus cupiditate eum assumenda voluptates
+          temporibus eos iusto voluptatem blanditiis corporis laborum omnis aliquam praesentium veniam, esse neque cumque? Magnam distinctio a repellendus exercitationem dicta
+          beatae tempore ipsum porro quod, maxime voluptatem tempora saepe facilis labore rerum? Aliquam laborum sunt sit eos corporis tempore odio, eius natus nisi enim
+          reprehenderit vel corrupti consectetur quia quam voluptatum odit, debitis deserunt non iste! Impedit, voluptates magnam.
+        </p>
+
+        <img src="./multimedia/images/stvari/adventure.jpg" alt="Adventure picture" />
+      </section>
+      <br />
+      <br />
+      <hr />
+      <br />
+      <section id="kontakt">
+        <h2>Kontakt</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nisi voluptate quia esse sequi, neque dignissimos iure at natus distinctio sunt nulla, voluptatum maiores
+          amet. Quae deleniti nobis deserunt. Magni voluptate fuga nobis cupiditate, ullam autem ratione nostrum nulla nesciunt quasi culpa sit. Atque vitae sed corrupti ad! Error
+          explicabo inventore illo provident ut aspernatur reiciendis molestiae, est architecto eos sunt harum voluptas dolorum atque. Sunt culpa rerum unde debitis doloremque
+          earum commodi alias ipsum exercitationem nesciunt numquam delectus corrupti explicabo nostrum consequuntur id, soluta beatae, placeat fuga quaerat magni iusto consequatur
+          necessitatibus totam. Amet, reiciendis. Commodi quia ad debitis!
+        </p>
+        <br />
+
+        <!-- Kontakt -->
+        <form action="javascript:alert('Hvala na javljanju!')" method="get">
+          <label for="fnamelname">Ime i prezime</label><br />
+          <input type="text" id="fnamelname" name="fnamelname" required placeholder="Tu pišite..." />
+          <br />
+          <br />
+          <label for="email">E-mail</label><br />
+          <input type="email" id="email" name="email" required placeholder="E-mail" /><br />
+          <br />
+          <label for="poruka">Poruka</label><br />
+          <textarea name="poruka" id="poruka" cols="50" rows="10" placeholder="Upišite poruku"></textarea><br /><br />
+          <button type="submit">Pošalji poruku</button>
+        </form>
+        <br />
+        <hr />
+        <br />
+      </section>
+    </main>
+
+    <footer>
+      <b>Copyright &copy; 2022</b><br /><br />
+      <a href="mailto:someone@example.com"><img src="./multimedia/images/logo/mail.png" alt="Send mail to us" /></a>
+    </footer>
+  </body>
 </html>
